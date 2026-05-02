@@ -34,6 +34,11 @@ help with the setup:
 > Set up Symphony for my repository based on
 > https://github.com/openai/symphony/blob/main/elixir/README.md
 
+### Option 3. Use the Rust preview implementation
+
+A minimal Rust-based preview service is available in [`rust/README.md`](rust/README.md).
+
+
 ---
 
 ## License
