@@ -1,0 +1,10 @@
+services:
+  symphony-rust:
+    build: .
+    image: symphony-rust:local
+    environment:
+      SYMPHONY_POLL_INTERVAL_SECS: "15"
+      SYMPHONY_WORKSPACE_ROOT: "/workspaces"
+      SYMPHONY_TRACKER_KIND: "linear"
+    volumes:
+      - ./workspaces:/workspaces
